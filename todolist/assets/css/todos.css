@@ -1,0 +1,60 @@
+body{
+	background-image: url("background.jpg");
+}
+#box{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	background-color: white;
+	color: black;
+	margin: 0 auto;
+	border: 3px solid black;
+	width: 420px;
+}
+#content{
+	text-align:center;
+}
+
+#new{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+}
+
+#newButton{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+ul{
+  list-style-type: none;
+  
+  padding-left:0;
+  
+
+}
+li{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	line-height: 1.5;
+}
+
+.del{
+	background-color: #f44336;
+	border: none;
+	color: white;
+	padding: 8px 10px;
+	text-align: center;
+	ext-decoration: none;
+	display: inline-block;
+	font-size: 5px;
+}
+
+.lined{
+	text-decoration: line-through;
+	color: gray;
+}
